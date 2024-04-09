@@ -57,18 +57,22 @@ section {
 
 .imagem {
     background-color: darkgray;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.212); 
 }
 
 .imagem p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, .3);
     color: white;
-    width: 45vw;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+    
 
 }
 
 #joaninha {
     background-image: url('../imagens/joaninha-grande.jpg');
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 
 }
